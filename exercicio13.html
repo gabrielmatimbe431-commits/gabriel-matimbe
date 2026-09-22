@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout com flexbox</title>
+    <style>
+        header{
+            width: 100%;
+            background-color: lightblue;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        layout{
+            display: flex;
+        }
+        nav {
+            width: 25%;
+            padding: 20px;
+            background-color: laightgray;
+        }
+        main {
+            width: 75%;
+           padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Minha pagina web</h1>
+    </header>
+    <div class="layout">
+        <nav>
+            <h2>menu</h2>
+            <p>Inicio</p>
+            <p>sobre</p>
+            <p>contacto</p>
+        </nav>
+        <main>
+            <h2>conteudo principal</h2>
+            <p>este e o conteudo da pagina</p>
+        </main>
+    </div>
+</body>
+</html>
